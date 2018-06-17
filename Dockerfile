@@ -11,3 +11,5 @@ RUN \
 RUN pip3 install --upgrade pip
 RUN pip3 install numpy scipy
 RUN pip3 install wxpython
+
+COPY /. /home
